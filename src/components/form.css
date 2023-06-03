@@ -1,0 +1,68 @@
+/* form.css */
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container div {
+  margin-bottom: 15px;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+  /* Add specific styles if needed */
+  border: #00bfff;
+  
+}
+
+
+
+.btn {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #00bfff;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
